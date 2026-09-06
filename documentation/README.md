@@ -1,0 +1,42 @@
+# TikTok Group project Team 3
+This repository is the group project regarding the TikTok data
+
+## Contributors
+- Justin Huijnen (SNR: 2116456)
+- Judith van Hemert (SNR: xxxxxxx)
+- Melina Likaj (SNR: xxxxxxx)
+
+## Work that has to be done (delete when done):
+
+Add a project README
+The repository has an incomplete README.
+Describe the goal of the project
+Explain how to set up the environment / install dependencies
+Explain how to reproduce the analysis (which scripts to run, in which order)
+List the group members and their contributions
+
+Set up project folder structure
+Agree on and create a consistent folder structure for the project, think about where to store data, documentation and code
+Create the folders (note that Git does not track empty folders)
+Move existing files into the right place
+Add a short note in the README explaining the structure
+
+Produce a clean Quarto summary for one selected CSV file
+The project requires a clean summary of one selected CSV file to be produced using Quarto.
+Select the downloaded video_views file from the `/data/raw` (see issue \"Download the data from the provided URL and save it to the data folder\")
+Create a Quarto document that reads the CSV file and produces a summary (for inspiration check to tutorial-2, but be creative!)
+Save the Quarto document in the correct folder
+Ensure that the Quarto document can be rendered without errors
+
+Create an AI.md file to document AI usage
+The project allowes and encourages the use of AI tools (e.g., ChatGPT) to assist with coding and writing. It's important to document how these tools were used.
+Create a new file named `AI.md`.
+List the AI tools used, including versions and settings
+Describe how each tool was used (e.g., code generation, debugging, writing assistance)
+Explain how the outputs from AI tools were reviewed and validated
+
+Create a .gitignore
+You should never push your data to the repository. Create a .gitignore file to ensure that the data folder is ignored by Git.
+Create a `.gitignore` file in the root of the repository
+Add the `/data` folder to the `.gitignore` file
+Ensure that any existing data files are removed from Git tracking (if they were previously committed)",
