@@ -28,15 +28,8 @@ Create a Quarto document that reads the CSV file and produces a summary (for ins
 Save the Quarto document in the correct folder
 Ensure that the Quarto document can be rendered without errors
 
-Create an AI.md file to document AI usage
 The project allowes and encourages the use of AI tools (e.g., ChatGPT) to assist with coding and writing. It's important to document how these tools were used.
-Create a new file named `AI.md`.
 List the AI tools used, including versions and settings
 Describe how each tool was used (e.g., code generation, debugging, writing assistance)
 Explain how the outputs from AI tools were reviewed and validated
 
-Create a .gitignore
-You should never push your data to the repository. Create a .gitignore file to ensure that the data folder is ignored by Git.
-Create a `.gitignore` file in the root of the repository
-Add the `/data` folder to the `.gitignore` file
-Ensure that any existing data files are removed from Git tracking (if they were previously committed)",
