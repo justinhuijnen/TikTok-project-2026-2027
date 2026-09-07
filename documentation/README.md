@@ -8,6 +8,17 @@ This repository is the group project regarding the TikTok data
 
 ## Work that has to be done (delete when done):
 
+## Installation and dependencies
+
+This project requires:
+- R
+- Quarto
+- R package 'ggplot2'
+
+```r
+install.packages("ggplot2")
+```
+
 Add a project README
 The repository has an incomplete README.
 Describe the goal of the project
