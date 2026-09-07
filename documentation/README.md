@@ -6,7 +6,6 @@ This repository is the group project regarding the TikTok data
 - Judith van Hemert (SNR: 2191989)
 - Melina Likaj (SNR: xxxxxxx)
 
-## Work that has to be done (delete when done):
 
 ## Installation and dependencies
 
@@ -18,7 +17,7 @@ This project requires:
 ```r
 install.packages("ggplot2")
 ```
-
+## Work that has to be done (delete when done):
 Add a project README
 The repository has an incomplete README.
 Describe the goal of the project
