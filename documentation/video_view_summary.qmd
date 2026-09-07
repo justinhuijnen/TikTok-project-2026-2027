@@ -1,0 +1,43 @@
+---
+title: "TikTok Video Views Summary"
+format: html
+---
+## Introduction
+
+This document provides a short summary of the TikTok video views dataset.
+
+## Load the data
+
+```{r}
+video_views <- read.csv("../data/raw/video_view.csv")
+```
+
+## Preview of the dataset
+
+```{r}
+head(video_views)
+```
+
+## Summary statistics
+
+```{r}
+summary(video_views)
+```
+
+## Dataset dimensions
+
+```{r}
+cat("Number of rows:", nrow(video_views), "\n")
+cat("Number of columns:", ncol(video_views))
+```
+
+## Missing values
+
+```{r}
+colSums(is.na(video_views))
+```
+## Variable names
+
+```{r}
+names(video_views)
+```
