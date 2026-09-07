@@ -31,13 +31,6 @@ Create the folders (note that Git does not track empty folders)
 Move existing files into the right place
 Add a short note in the README explaining the structure
 
-Produce a clean Quarto summary for one selected CSV file
-The project requires a clean summary of one selected CSV file to be produced using Quarto.
-Select the downloaded video_views file from the `/data/raw` (see issue \"Download the data from the provided URL and save it to the data folder\")
-Create a Quarto document that reads the CSV file and produces a summary (for inspiration check to tutorial-2, but be creative!)
-Save the Quarto document in the correct folder
-Ensure that the Quarto document can be rendered without errors
-
 The project allowes and encourages the use of AI tools (e.g., ChatGPT) to assist with coding and writing. It's important to document how these tools were used.
 List the AI tools used, including versions and settings
 Describe how each tool was used (e.g., code generation, debugging, writing assistance)
