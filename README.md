@@ -4,7 +4,7 @@ This repository is the group project regarding the TikTok data
 ## Contributors
 - Justin Huijnen (SNR: 2116456)
 - Judith van Hemert (SNR: 2191989)
-- Melina Likaj (SNR: xxxxxxx)
+- Melina Likaj (SNR: 2097184)
 
 ## Installation and dependencies
 This project requires:
