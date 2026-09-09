@@ -1,5 +1,9 @@
-# Individual assignment week 3 Judith
-This branch is the individual assignment regarding the project of TikTok data
+# TikTok impressions analysis
+This branch is the individual assignment regarding the TikTok impressions dataset. 
+
+This analysis focuses on:
+ - The mix of feed sources
+ - the distribution of ranking scores
 
 ## Name
 - Judith van Hemert (SNR: 2191989)
