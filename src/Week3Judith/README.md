@@ -26,7 +26,9 @@ This assignment requires
   Runs the workflow automatically.
 
 - 'output'
-  Contains the generated visualizations
+  Contains the generated visualizations.
+
+  
   
 
 
