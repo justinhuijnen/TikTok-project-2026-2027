@@ -28,7 +28,14 @@ This assignment requires
 - 'output'
   Contains the generated visualizations.
 
-  
+## How to run the project
+
+Open a terminal in the `src/Week3Judith` folder.
+
+Run:
+
+```bash
+make
   
 
 
