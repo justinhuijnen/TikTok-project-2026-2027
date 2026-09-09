@@ -14,5 +14,15 @@ This assignment requires
 - R
 - R package 'ggplot2'
 
+## Files
+
+- 'download_data.R'
+  Downloads the TikTok impressions dataset into the 'raw/' folder.
+
+- 'analysis.R'
+  Loads and cleans the data for duplicates, and creates visualizations.
+
+- 
+
 
 
