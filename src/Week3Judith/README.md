@@ -1,6 +1,6 @@
 # Individual assignment week 3 Judith
 This branch is the individual assignment regarding the project of TikTok data
 
-# Name
+## Name
 - Judith van Hemert (SNR: 2191989)
 
