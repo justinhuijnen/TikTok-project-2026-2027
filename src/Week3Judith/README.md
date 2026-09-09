@@ -22,7 +22,12 @@ This assignment requires
 - 'analysis.R'
   Loads and cleans the data for duplicates, and creates visualizations.
 
-- 
+- 'makefile'
+  Runs the workflow automatically.
+
+- 'output'
+  Contains the generated visualizations
+  
 
 
 
