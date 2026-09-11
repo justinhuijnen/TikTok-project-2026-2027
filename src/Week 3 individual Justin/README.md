@@ -8,7 +8,7 @@ This folder in the repository of the group project is about the second assignmen
 This project requires:
 - R
 - Quarto
-- R package 'ggplot2'
+- R package 'tidyverse'
 
 ## Project structure
 - data/raw: Contains the raw data and is created with the R script download_data.R in this folder
