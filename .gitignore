@@ -2,4 +2,5 @@
 /data
 
 # Exclude the data folder for the individual exercise in week 3
-src/Week 3 individual Justin/data/raw
+/src/data/
+
