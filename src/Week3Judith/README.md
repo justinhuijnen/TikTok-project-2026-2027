@@ -30,6 +30,8 @@ This assignment requires
 
 ## How to run the project
 
+First, download the data using the download_data.R file in the scripts folder
+
 Open a terminal in the `src/Week3Judith` folder.
 
 Run:
@@ -37,6 +39,8 @@ Run:
 ```bash
 make
   
+How to use the project
+
 
 
 
