@@ -1,7 +1,7 @@
 # Exclude the data folder
 /data
 
-# Exclude the data folder for the individual exercise in week 3
-src/Week 3 individual Justin/data/
-
+# Exclude the data and plots folder for the individual exercise in week 3
+src/week_3_individual_justin/data/
+src/week_3_individual_justin/plots
 
