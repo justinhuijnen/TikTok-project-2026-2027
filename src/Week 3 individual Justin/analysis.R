@@ -44,3 +44,11 @@ ggplot(action_by_creator, aes(x = creator_id, y = proportion, fill = action)) +
   scale_fill_manual(name = "Action type", values = c("red", "steelblue", "darkgreen", "yellow"), labels = c("Exit app", "Skip halfway the video", "Skip immediately", "Watch full video")) +
   theme_minimal()
 ggsave("src/Week 3 individual Justin/plots/Actions_by_creators_tiktok.png", width=7,height=4)
+
+# 3. Average watch time by creator
+creator_avg <- data %>% group_by(creator_id) %>% summarize(avg_watch_seconds = mean(watch_seconds, na.rm = TRUE))
+
+ggplot(creator_avg, aes(x = creator_id, y = avg_watch_seconds)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  labs(title = "Average Watch Time by Creator", x = "Creator ID", y = "Average watch time")
+ggsave("src/Week 3 individual Justin/plots/Average_watch_time.png", width=7,height=4)
