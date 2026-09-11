@@ -27,3 +27,4 @@ This project requires:
 - Actionspread_tiktok.png: Shows how many times an action was taken - exit the app, skip halfway the video, skip immediately, or watched the full video
 - Actions_by_creator_tiktok.png: Shows what proportion of users took which action, but grouped by creator. So we can see that some creators did better than others. I included the same color scheme to make it easy
 - Average_watch_time.png: Shows the average watch time per creator. This one is a bit easier
+- Total_tiktok_time.png: Shows the total time on tiktok per user in a bar chart

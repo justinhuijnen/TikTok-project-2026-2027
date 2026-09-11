@@ -50,5 +50,16 @@ creator_avg <- data %>% group_by(creator_id) %>% summarize(avg_watch_seconds = m
 
 ggplot(creator_avg, aes(x = creator_id, y = avg_watch_seconds)) +
   geom_bar(stat = "identity", fill = "steelblue") +
-  labs(title = "Average Watch Time by Creator", x = "Creator ID", y = "Average watch time")
+  labs(title = "Average Watch Time by creator", x = "Creator ID", y = "Average watch time")
 ggsave("src/Week 3 individual Justin/plots/Average_watch_time.png", width=7,height=4)
+
+# 4. Total watch time per user
+user_watch_time <- data %>% group_by(user_id) %>% summarize(total_watch_seconds = sum(watch_seconds, na.rm = TRUE)) %>% arrange(total_watch_seconds)
+user_watch_time <- user_watch_time %>% mutate(total_watch_minutes = total_watch_seconds / 60)
+
+ggplot(user_watch_time, aes(x = user_id, y = total_watch_minutes)) +
+  geom_bar(stat = "identity", fill = "red") +
+  labs(title = "Total Watch Time per user", x = "User ID", y = "Total Watch Time (minutes)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggsave("src/Week 3 individual Justin/plots/Total_tiktok_time.png", width=7,height=4)
