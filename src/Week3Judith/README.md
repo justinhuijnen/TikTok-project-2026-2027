@@ -39,6 +39,10 @@ Run:
 ```bash
 make
 
+
+
+
+
 ## AI usage
 
 The AI usage regarding the individual assignment is the same as in the main branch. 
