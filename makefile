@@ -1,11 +1,11 @@
-WD = src/week_3_individual_justin
-DATA_FILE = $(WD)/data/raw/tiktok_watch_events.csv
-PLOT1 = $(WD)/plots/Actionspread_tiktok.png
-PLOT2 = $(WD)/plots/Actions_by_creators_tiktok.png
-PLOT3 = $(WD)/plots/Average_watch_time.png
-PLOT4 = $(WD)/plots/Total_tiktok_time.png
+# This is the makefile for automation: simply just run make in the terminal
 
-$(PLOT1) $(PLOT2) $(PLOT3) $(PLOT4): $(WD)/analysis.R $(DATA_FILE)
-	Rscript $(WD)/analysis.R
+all: download_week_3_data run
+
+download_week_3_data:
+	Rscript src/week_3_individual_justin/download_week3_data.R
+
+run:
+	Rscript src/week_3_individual_justin/analysis.R
 
 
