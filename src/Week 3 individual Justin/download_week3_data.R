@@ -15,3 +15,10 @@ if (!file.exists(file_path)) {
   cat("File downloaded successfully to:", file_path, "\n")
 } else {
   cat("File already exists at:", file_path, "\n")}
+
+# create new folder to store ggsaves
+plot_folder <- "src/Week 3 individual Justin/plots"
+
+if (!dir.exists(plot_folder)) {
+  dir.create(plot_folder, recursive = TRUE)
+  cat("Created directory:", plot_folder, "\n")}

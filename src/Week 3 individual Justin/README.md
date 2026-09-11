@@ -12,10 +12,11 @@ This project requires:
 
 ## Project structure
 - data/raw: Contains the raw data and is created with the R script download_data.R in this folder
-- download_data.R: Contains the R script to download the data needed for this assignment
+- download_week3_data.R: Contains the R script to download the data needed for this assignment
 - analysis.R: It cleans the data first. Then, this file makes 4 plots with the use of ggplot2 and ggsave
+- plots: This folder contains the plots created by analysis.R
 
 ## How to use the project
-- First, download the data using the download_data.R file in this folder
+- First, download the data using the download_week3_data.R file in this folder
 - Second, run the analysis.R script, which is also in this folder
-- 4 beautiful graphs are created and stored on your computer now
+- 4 beautiful graphs are created and stored on your computer now 
