@@ -27,4 +27,20 @@ ggplot(data=data,aes(x=action, fill=action)) +
   theme(axis.text.x = element_blank())
 ggsave("src/Week 3 individual Justin/plots/Actionspread_tiktok.png", width=7,height=4)
 
-# 2. How does watch time relate to video length?
+# 2. Proportion of actions per creator
+
+# Summary of action counts by creator (to get an overview)
+action_by_creator <- data %>% group_by(creator_id, action) %>% summarize(count = n(), .groups = 'drop')
+action_by_creator
+
+# Calculate proportion per creator
+action_by_creator <- action_by_creator %>% group_by(creator_id) %>% mutate(proportion = count / sum(count))
+
+# Create stacked bar plot
+ggplot(action_by_creator, aes(x = creator_id, y = proportion, fill = action)) +
+  geom_bar(stat = 'identity') +
+  labs(title = "Proportion of actions per creator", subtitle = "What proportion of videos leads to each action type",
+   x = "Creator ID", y = "Proportion of users", fill = "Action Type") +
+  scale_fill_manual(name = "Action type", values = c("red", "steelblue", "darkgreen", "yellow"), labels = c("Exit app", "Skip halfway the video", "Skip immediately", "Watch full video")) +
+  theme_minimal()
+ggsave("src/Week 3 individual Justin/plots/Actions_by_creators_tiktok.png", width=7,height=4)

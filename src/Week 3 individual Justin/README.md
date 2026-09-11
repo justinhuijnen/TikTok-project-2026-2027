@@ -19,4 +19,10 @@ This project requires:
 ## How to use the project
 - First, download the data using the download_week3_data.R file in this folder
 - Second, run the analysis.R script, which is also in this folder
+
+## Expected output
 - 4 beautiful graphs are created and stored on your computer now 
+
+## Description of plots
+- Actionspread_tiktok.png: Shows how many times an action was taken - exit the app, skip halfway the video, skip immediately, or watched the full video
+- Actions_by_creator_tiktok.png: Shows what proportion of users took which action, but grouped by creator. So we can see that some creators did better than others. I included the same color scheme to make it easy
