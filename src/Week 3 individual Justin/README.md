@@ -13,8 +13,9 @@ This project requires:
 ## Project structure
 - data/raw: Contains the raw data and is created with the R script download_data.R in this folder
 - download_data.R: Contains the R script to download the data needed for this assignment
-- cleaning.R: Does some data cleaning
+- analysis.R: It cleans the data first. Then, this file makes 4 plots with the use of ggplot2 and ggsave
 
 ## How to use the project
-- First, download the data using the download_data.R file
-- Perform a first summary using the video_view_summary.qmd file in the documentation folder
+- First, download the data using the download_data.R file in this folder
+- Second, run the analysis.R script, which is also in this folder
+- 4 beautiful graphs are created and stored on your computer now
