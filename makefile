@@ -1,4 +1,4 @@
-WD = "src/week_3_individual_justin"
+WD = src/week_3_individual_justin
 DATA_FILE = $(WD)/data/raw/tiktok_watch_events.csv
 PLOT1 = $(WD)/plots/Actionspread_tiktok.png
 PLOT2 = $(WD)/plots/Actions_by_creators_tiktok.png
@@ -7,4 +7,5 @@ PLOT4 = $(WD)/plots/Total_tiktok_time.png
 
 $(PLOT1) $(PLOT2) $(PLOT3) $(PLOT4): $(WD)/analysis.R $(DATA_FILE)
 	Rscript $(WD)/analysis.R
+
 
