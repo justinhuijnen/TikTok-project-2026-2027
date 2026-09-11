@@ -39,7 +39,6 @@ Run:
 ```bash
 make
   
-How to use the project
 
 
 
