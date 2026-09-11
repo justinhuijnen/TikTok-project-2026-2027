@@ -7,21 +7,22 @@ This folder in the repository of the group project is about the second assignmen
 ## Installation and dependencies
 This project requires:
 - R
-- Quarto
 - R package 'tidyverse'
+- make (optional)
 
 ## Project structure
 - data/raw: Contains the raw data and is created with the R script download_data.R in this folder
-- download_week3_data.R: Contains the R script to download the data needed for this assignment
+- download_week3_data.R: Contains the R script to download the data needed for this assignment. It also creates a folder called plots, here are all plots stored if you run the analysis.R script
 - analysis.R: It cleans the data first. Then, this file makes 4 plots with the use of ggplot2 and ggsave
-- plots: This folder contains the plots created by analysis.R
+- makefile: Makes automation easy. Simply run make in the terminal and all steps are automated
 
 ## How to use the project
 - First, download the data using the download_week3_data.R file in this folder
 - Second, run the analysis.R script, which is also in this folder
+- Or: Run make in the terminal and everything is done
 
 ## Expected output
-- 4 beautiful graphs are created and stored on your computer now 
+- 4 beautiful graphs are created and stored on your computer in the plots folder
 
 ## Description of plots
 - Actionspread_tiktok.png: Shows how many times an action was taken - exit the app, skip halfway the video, skip immediately, or watched the full video
