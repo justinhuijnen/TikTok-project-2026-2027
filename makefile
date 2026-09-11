@@ -1,4 +1,4 @@
-WD = "src/Week 3 individual Justin"
+WD = "src/week_3_individual_justin"
 DATA_FILE = $(WD)/data/raw/tiktok_watch_events.csv
 PLOT1 = $(WD)/plots/Actionspread_tiktok.png
 PLOT2 = $(WD)/plots/Actions_by_creators_tiktok.png
