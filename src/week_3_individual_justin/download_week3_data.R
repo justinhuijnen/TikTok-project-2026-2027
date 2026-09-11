@@ -1,7 +1,7 @@
 # This is the R script to download the data for the individual assignment for week 3 (Justin)
 
 data_url <- paste0("https://raw.githubusercontent.com/hannesdatta/course-dprep/refs/heads/main/material/project/coaching_2_data/watch_events.csv")
-data_folder <- "src/Week_3_individual_justin/data/raw"
+data_folder <- "src/week_3_individual_justin/data/raw"
 file_path <- paste0(data_folder, "/tiktok_watch_events.csv")
 
 # Create the folder if it doesn't exist
@@ -22,3 +22,6 @@ plot_folder <- "src/week_3_individual_justin/plots"
 if (!dir.exists(plot_folder)) {
   dir.create(plot_folder, recursive = TRUE)
   cat("Created directory:", plot_folder, "\n")}
+
+
+
