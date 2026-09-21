@@ -1,6 +1,6 @@
 # This is the R script to download the data
 
-data_url <- paste0("https://raw.githubusercontent.com/hannesdatta/course-dprep/refs/heads/main/material/tutorials/r-bootcamp-rev/video_view.csv")
+data_url <- paste0("https://raw.githubusercontent.com/hannesdatta/course-dprep/refs/heads/main/material/project/video_view.csv")
 data_folder <- "data/raw"
 file_path <- paste0(data_folder, "/video_view.csv")
 
