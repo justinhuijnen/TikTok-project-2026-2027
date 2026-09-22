@@ -94,3 +94,5 @@ ggsave(
 for (column in names(impressions_clean)) {
   print(paste(column, sum(is.na(impressions_clean[[column]]))))
 }
+
+grep("^score_", names(impressions_clean), value = TRUE)
