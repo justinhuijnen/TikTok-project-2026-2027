@@ -1,5 +1,5 @@
 # Load packages
-library(ggplot2)
+library(tidyverse)
 
 # Load data
 impressions <- read.csv("raw/impressions.csv")
@@ -90,3 +90,9 @@ ggsave(
   width = 8,
   height = 5
 )
+
+for (column in names(impressions_clean)) {
+  print(paste(column, sum(is.na(impressions_clean[[column]]))))
+}
+
+grep("^score_", names(impressions_clean), value = TRUE)
