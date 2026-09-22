@@ -11,19 +11,17 @@ This project contains both the team project and the individual assignments.
 This project requires:
 - R
 - Quarto
-- R package 'ggplot2'
 - R package 'tidyverse'
-- R package 'dplyr'
 
-Packages can be installed in R using:
+Package can be installed in R using:
 
 ```r
-instal.packages("ggplot2", "tidy verse", "dplyr")
+install.packages("tidy verse")
 ```
 
 ## Project structure
 - data/ - Contains raw data files
-- documentation - Contains AI.md (Information about AI usage in the project) and video_view_summary.qmd (Provides a quick summary of the dataset)
+- documentation - Contains AI.md (Information about AI usage in the project)
 - src - Contains summary.qmd.
 - scripts - Provides the download_data.R folder that is meant to download the data
 - .gitignore - Specifies that the data/ folder does not need to be uploaded to GitHub
