@@ -1,5 +1,6 @@
 # TikTok Group project Team 3
-This repository is the group project regarding the TikTok data
+This repository contains the group project for the Data Preparation course. 
+The project uses TikTok data to practice downloading, preparing, summarizing, and analyzing data.
 
 ## Contributors
 - Justin Huijnen (SNR: 2116456)
@@ -10,6 +11,8 @@ This project requires:
 - R
 - Quarto
 - R package 'ggplot2'
+- R package 'tidyverse'
+- R package 'dplyr'
 
 ## Project structure
 - data/ - Contains raw data files
