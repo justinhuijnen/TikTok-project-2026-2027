@@ -26,7 +26,7 @@ install.packages("tidyverse")
 - .gitignore - Specifies that the data/ folder does not need to be uploaded to GitHub
 
 ## How to use the project
-- First, download the data using the download_data.R file in the scripts folder
-- Perform a first summary using the video_view_summary.qmd file in the documentation folder
+- First, download the data using the download_data.R file in the src folder
+- Perform a first summary using the summary.qmd file in src folder
 
 
