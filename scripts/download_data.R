@@ -1,4 +1,5 @@
 # This is the R script to download the data
+library(tidyverse)
 
 data_url <- paste0("https://raw.githubusercontent.com/hannesdatta/course-dprep/refs/heads/main/material/project/video_view.csv")
 data_folder <- "data/raw"
@@ -16,3 +17,4 @@ if (!file.exists(file_path)) {
 } else {
   cat("File already exists at:", file_path, "\n")}
   
+video_views <- read_csv("data/raw/video_view.csv")
