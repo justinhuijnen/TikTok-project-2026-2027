@@ -19,6 +19,7 @@ Packages can be installed in R using:
 
 ```r
 instal.packages("ggplot2", "tidy verse", "dplyr")
+```
 
 ## Project structure
 - data/ - Contains raw data files
