@@ -23,10 +23,12 @@ install.packages("tidyverse")
 - data/ - Contains raw data files
 - documentation - Contains AI.md (Information about AI usage in the project)
 - src - Contains both the individual assignments, download_data.R to download the data in the project, and summary.qmd
-- .gitignore - Specifies that the data/ folder does not need to be uploaded to GitHub
+- .gitignore - Specifies that the data/ folder and other outputs do not need to be uploaded to GitHub
 
 ## How to use the project
 - First, download the data using the download_data.R file in the src folder
 - Perform a first summary using the summary.qmd file in src folder
+- Go into src/Week3Judith or src/week_3_individual_justin to see the individual work of Judith and Justin, along with their README's
+- Run "make" in the terminal so that all steps are automated
 
 
