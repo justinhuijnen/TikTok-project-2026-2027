@@ -2,7 +2,7 @@
 library(tidyverse)
 
 # Load data
-impressions <- read.csv("raw/impressions.csv")
+impressions <- read.csv("src/Week3Judith/raw/impressions.csv")
 
 
 # Check dataset
@@ -25,7 +25,7 @@ impressions_clean <- impressions[!duplicated(impressions), ]
 sum(duplicated(impressions_clean))
 
 ## Visualizing 
-output_folder <- "output"
+output_folder <- "src/Week3Judith/output"
 
 if (!dir.exists(output_folder)) {
   dir.create(output_folder)

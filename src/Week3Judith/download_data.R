@@ -2,7 +2,7 @@
 
 data_url <- "https://raw.githubusercontent.com/hannesdatta/course-dprep/refs/heads/main/material/project/coaching_2_data/impressions.csv"
 
-data_folder <- "raw"
+data_folder <- "src/Week3Judith/raw"
 
 
 file_path <- paste0(data_folder, "/impressions.csv")
