@@ -16,14 +16,13 @@ This project requires:
 Package can be installed in R using:
 
 ```r
-install.packages("tidy verse")
+install.packages("tidyverse")
 ```
 
 ## Project structure
 - data/ - Contains raw data files
 - documentation - Contains AI.md (Information about AI usage in the project)
-- src - Contains summary.qmd.
-- scripts - Provides the download_data.R folder that is meant to download the data
+- src - Contains both the individual assignments, download_data.R to download the data in the project, and summary.qmd
 - .gitignore - Specifies that the data/ folder does not need to be uploaded to GitHub
 
 ## How to use the project
