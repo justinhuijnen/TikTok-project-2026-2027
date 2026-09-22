@@ -4,42 +4,40 @@ format: html
 ---
 
 ```{r}
-views <- read.csv("C:\Users\JeroenSwolfs\Documents\TikTok-project-template-2026\data\video_view.csv")
 library(dplyr)
 library(tidyverse)
 
-x <- nrow(views)
+x <- nrow(video_views)
 print(x)
 
-str(views)
-head(views)
-summary(views)
-colSums(is.na(views))
+str(video_views)
+head(video_views)
+summary(video_views)
+colSums(is.na(video_views))
 
-overview <- views %>%
+overview <- video_views %>%
   summarize(
     videos = n(),
     creators = n_distinct(creator_id),
     avg_length = mean(video_length_sec),
     avg_impressions = mean(impressions_n),
     avg_watched = mean(watched_n),
-    avg_watch_rate = 
-    avg_watch_share = 
-    avg_watch_seconds = 
+    avg_watch_rate = mean(watch_rate),
+    avg_watch_seconds = mean(total_watch_seconds)
   )
 
 print(overview)
 
-mean(views$watch_rate)
-mean(views$avg_watch_share)
+mean(video_views$watch_rate, na.rm = TRUE)
+mean(video_views$avg_watch_share, na.rm = TRUE)
 
-views$watched_pct <- views$watched_n / views$impressions_n * 100
+video_views$watched_pct <- video_views$watched_n / video_views$impressions_n * 100
 
-topvideo <- views[views$impressions_n == max(views$impressions_n), ]
+topvideo <- video_views[video_views$impressions_n == max(video_views$impressions_n), ]
 print(topvideo)
 
-hist(views$video_length_sec)
+hist(video_views$video_length_sec)
 
-goodvideos <- subset(views, watch_rate > 0.8)
+goodvideos <- subset(video_views, watch_rate > 0.8)
 nrow(goodvideos)
 ```
